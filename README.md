@@ -1,7 +1,13 @@
 horizon
 =======
 
-7.0.0 - 2015.2 - Liberty
+A fork of the puppet-horizon project with some backported fixes for stable/kilo.
+
+https://bugs.launchpad.net/puppet-horizon/+bug/1520157
+
+Also fixes icons not appearing in the ubuntu theme.
+
+Only tested on ubuntu 14.04, quite possibly breaks stuff on other releases/distributions.
 
 #### Table of Contents
 
