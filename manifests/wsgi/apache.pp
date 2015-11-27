@@ -172,6 +172,10 @@ class horizon::wsgi::apache (
     aliases                     => [{
       alias => "${$::horizon::params::root_url}/static",
       path  => '/usr/share/openstack-dashboard/static',
+    },
+    {
+      alias => '/static',
+      path  => '/usr/share/openstack-dashboard/static',
     }],
     port                        => 80,
     ssl_cert                    => $horizon_cert,
